@@ -1,0 +1,28 @@
+/**
+ * @package WP_ExternalMediaSE
+ * External Link popup CSS.
+ */
+
+#em-external-link-modal {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 999999;
+  background-color: #fff;
+}
+
+#em-external-link-modal .em-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#em-external-link-modal input.url {
+  font-size: 18px;
+  padding: 12px 14px;
+  width: 100%;
+  min-width: 200px;
+  -webkit-box-shadow: inset 2px 2px 4px -2px rgba(0,0,0,.1);
+  box-shadow: inset 2px 2px 4px -2px rgba(0,0,0,.1);
+}
