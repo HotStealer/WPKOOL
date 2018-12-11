@@ -1,0 +1,197 @@
+#survey {
+    display: flex !important;
+    display: -webkit-flex !important;
+    display: -moz-flex !important;
+    display: -ms-flexbox !important;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: space-between;
+}
+
+#wpsapcr {
+	text-align: right;
+	margin-right: 20px;	
+}
+
+#wpsapcr a {
+	text-decoration: none;
+	color: #000;
+	font-size: 10px;
+	font-family: Arial, Helvetica, Times New Roman, sans-serif;
+}
+
+.survey_table {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.survey_element {
+    flex-basis: auto;
+    flex-basis: 100%;
+    width: 100%;
+	margin: 5px 0px;
+}
+
+.survey_question {
+	display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    flex: 1;
+    -webkit-flex: 1;
+    font-weight: bold;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.survey_answers {
+	text-decoration: none;
+    flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    margin: 5px;
+    cursor: pointer;
+    width: 100px;
+    line-height: 2;
+    position: relative;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.survey_answers:before {
+    content: '\00bb';
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	left: -10px;
+	opacity: 0;
+	position: relative;
+	float: left;
+	top: -1px;
+}
+
+.survey_answers:hover:before {
+	opacity: 1;
+	left: -5px;
+}
+
+.survey_row {
+	display: flex;
+}
+
+#bglock {
+	position: fixed;
+	display:none;
+	top:0px;
+	left:0px;
+	z-index:999998;
+	width:100%;
+	height:100%;
+	background:#000000;
+	filter: alpha(opacity=80);
+	-khtml-opacity: 0.8;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+#survey .cl_survey {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+#survey .cl_top_survey {
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	cursor: pointer;
+}
+
+.progress {
+	filter: none !important;
+	position: relative;
+	overflow: hidden;
+	height: 22px;
+	background: none repeat scroll 0% 0% rgb(239, 239, 239);
+	box-shadow: none;
+	border-radius: 2px 2px 2px 2px;
+	border: 1px solid rgb(213, 213, 213);
+} 
+
+.process {
+	margin-top: 20px;
+}
+
+.process p {
+	margin: 0px 0px 0px 0px !important;
+}
+
+.right {
+	float: right;
+}
+
+.progress .badge {
+	padding-left: 9px;
+	padding-right: 9px;
+	border-radius: 9px 9px 9px 9px;
+	background-color: rgb(58, 135, 173);
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: rgb(255, 255, 255);
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.progress .bar {
+	background-color: rgb(91, 192, 222);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	filter: none !important;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 2px 2px 2px 2px;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 13px;
+	padding: 5px 0px 4px;
+	width: 0%;
+	height: 100%;
+	color: rgb(255, 255, 255);
+	float: left;
+	text-align: center !important;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15) inset;
+	-moz-box-sizing: border-box;
+	transition: width 1.6s ease 0s;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 100px) {
+	.survey_element {
+		font-size: 12px !important;
+		padding: 3px !important;
+	}
+}
