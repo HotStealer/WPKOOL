@@ -14,7 +14,11 @@
 	margin-bottom:0px;
 	margin-top:20px;
 }
-
+span.checkmark img,
+span.cross img {
+	width:auto;
+	max-width:100%;
+}
 .businessly-add-css h3 {
 	margin-top:0;
 }
