@@ -1,0 +1,598 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Start Booking\n"
+"POT-Creation-Date: 2018-07-08 17:26-0600\n"
+"PO-Revision-Date: 2018-07-08 17:26-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: start-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: content/404.php:1
+msgid "Content not found."
+msgstr ""
+
+#: content/overview.php:15 content/overview.php:20
+msgid "Booking Page"
+msgstr ""
+
+#: content/overview.php:23
+msgid "Select a page"
+msgstr ""
+
+#: content/overview.php:39
+msgid "The selected page does not have the required \"Full Flow\" embed."
+msgstr ""
+
+#: content/overview.php:39
+msgid "Learn More"
+msgstr ""
+
+#: content/overview.php:41
+msgid "View Page"
+msgstr ""
+
+#: content/overview.php:44
+msgid ""
+"This is the page where we have added the <code>[startbooking]</code> "
+"shortcode. Customers will be able to book appointments from this page."
+msgstr ""
+
+#: content/overview.php:57
+msgid "Embed Options"
+msgstr ""
+
+#: content/overview.php:62
+msgid "Full Flow"
+msgstr ""
+
+#: content/overview.php:65
+msgid ""
+"This shortcode is best used on a page or post and will provide your users "
+"with a list of your available services and allow them to book an appointment."
+msgstr ""
+
+#: content/overview.php:72
+msgid "Quick Checkout"
+msgstr ""
+
+#: content/overview.php:74 content/overview.php:77
+msgid "Button Text"
+msgstr ""
+
+#: content/overview.php:75
+msgid ""
+"This shortcode is best used when you want the user to go straight to "
+"selecting a date and time with a predefined service."
+msgstr ""
+
+#: content/overview.php:76
+msgid "Options"
+msgstr ""
+
+#: content/overview.php:77
+msgid "Text that you want on the button."
+msgstr ""
+
+#: content/overview.php:78 inc/copy.php:64
+msgid "services"
+msgstr ""
+
+#: content/overview.php:78
+msgid "ID of the service you want the user to checkout with."
+msgstr ""
+
+#: content/overview.php:81
+msgid "Service Name"
+msgstr ""
+
+#: content/overview.php:83
+msgid "Actions"
+msgstr ""
+
+#: content/overview.php:114
+msgid "Display Options"
+msgstr ""
+
+#: content/overview.php:119
+msgid "Button Background Color"
+msgstr ""
+
+#: content/overview.php:130
+msgid "Button Text Color"
+msgstr ""
+
+#: content/overview.php:137
+msgid "Update Colors"
+msgstr ""
+
+#: content/overview.php:150
+msgid "Expedited Booking"
+msgstr ""
+
+#: content/overview.php:155
+msgid "Single Service Type"
+msgstr ""
+
+#: content/overview.php:157
+msgid "Skip straight to the service list if there is only one service type."
+msgstr ""
+
+#: content/overview.php:164
+msgid "Low Qty of Services"
+msgstr ""
+
+#: content/overview.php:166
+msgid "Skip straight to the service list if there is less the five services."
+msgstr ""
+
+#: content/overview.php:173
+msgid "Single Service"
+msgstr ""
+
+#: content/overview.php:175
+msgid "Skip straight to the calendar if there is only one service available."
+msgstr ""
+
+#: content/overview.php:188
+msgid "Content Customizations"
+msgstr ""
+
+#: content/overview.php:196 content/overview.php:362
+msgid "Services"
+msgstr ""
+
+#: content/overview.php:199 inc/copy.php:46
+msgid "Appointment"
+msgstr ""
+
+#: content/overview.php:202
+msgid "Details"
+msgstr ""
+
+#: content/overview.php:205
+msgid "Success"
+msgstr ""
+
+#: content/overview.php:208
+msgid "General"
+msgstr ""
+
+#: content/overview.php:217
+msgid "Services Heading"
+msgstr ""
+
+#: content/overview.php:222
+msgid "Service Type Heading"
+msgstr ""
+
+#: content/overview.php:227
+msgid "Additional Service"
+msgstr ""
+
+#: content/overview.php:232
+msgid "Loading"
+msgstr ""
+
+#: content/overview.php:248
+msgid "Find Appointment Heading"
+msgstr ""
+
+#: content/overview.php:253
+msgid "Sub-heading"
+msgstr ""
+
+#: content/overview.php:258
+msgid "No Appointments"
+msgstr ""
+
+#: content/overview.php:263
+msgid "Looking for Appointments"
+msgstr ""
+
+#: content/overview.php:277
+msgid "Detail Heading"
+msgstr ""
+
+#: content/overview.php:282 content/setup.php:45 inc/copy.php:18
+msgid "Email"
+msgstr ""
+
+#: content/overview.php:287 inc/copy.php:19
+msgid "First Name"
+msgstr ""
+
+#: content/overview.php:292 inc/copy.php:20
+msgid "Last Name"
+msgstr ""
+
+#: content/overview.php:297 inc/copy.php:21
+msgid "Phone Number"
+msgstr ""
+
+#: content/overview.php:302
+msgid "Button Call To Action"
+msgstr ""
+
+#: content/overview.php:318
+msgid "Heading"
+msgstr ""
+
+#: content/overview.php:323
+msgid "Confirmed Message"
+msgstr ""
+
+#: content/overview.php:328
+msgid "Post Detail Message"
+msgstr ""
+
+#: content/overview.php:333
+msgid "Finish Button Text"
+msgstr ""
+
+#: content/overview.php:347
+msgid "Default Button Copy"
+msgstr ""
+
+#: content/overview.php:352 inc/copy.php:60
+msgid "Price"
+msgstr ""
+
+#: content/overview.php:357 inc/copy.php:29 inc/copy.php:61
+msgid "Duration"
+msgstr ""
+
+#: content/overview.php:384
+msgid "Additional Options"
+msgstr ""
+
+#: content/overview.php:389
+msgid "Endorse Us"
+msgstr ""
+
+#: content/overview.php:391
+msgid ""
+"Display a small powered by Start Booking at the end of checkout to help "
+"spread the word."
+msgstr ""
+
+#: content/overview.php:398
+msgid "Additional Data"
+msgstr ""
+
+#: content/overview.php:400
+msgid ""
+"Empower the Start Booking team to make data driven decisions by sharing "
+"basic information with us. This does not contain any confidential or "
+"sensitive information."
+msgstr ""
+
+#: content/overview.php:413
+msgid "Connection"
+msgstr ""
+
+#: content/overview.php:418
+msgid "Disconnect from App"
+msgstr ""
+
+#: content/overview.php:420
+msgid "Disconnect"
+msgstr ""
+
+#: content/overview.php:433
+msgid "Disable"
+msgstr ""
+
+#: content/overview.php:438
+msgid "Disable Booking"
+msgstr ""
+
+#: content/overview.php:440
+msgid "Check this if you need to temporarily disable booking on this site."
+msgstr ""
+
+#: content/setup-booking-page.php:3
+msgid "Connect to StartBooking.com"
+msgstr ""
+
+#: content/setup-booking-page.php:6
+msgid "Do you want us to create a booking page for you?"
+msgstr ""
+
+#: content/setup-booking-page.php:12
+msgid "Page Title"
+msgstr ""
+
+#: content/setup-booking-page.php:15 inc/copy.php:22
+msgid "Book Now"
+msgstr ""
+
+#: content/setup-booking-page.php:21
+msgid "No, I'll do it later"
+msgstr ""
+
+#: content/setup-booking-page.php:22
+msgid "Yes, create page"
+msgstr ""
+
+#: content/setup.php:14
+msgid ""
+"Please connect to <a href=\"https://www.startbooking.com\">Start Booking</a> "
+"or create a new account today. <br />This process will connect the Start "
+"Booking App with your website for amazing online booking."
+msgstr ""
+
+#: content/setup.php:17 content/setup.php:88
+msgid "Get Started"
+msgstr ""
+
+#: content/setup.php:18
+msgid "Or"
+msgstr ""
+
+#: content/setup.php:19
+msgid "Connect My Account"
+msgstr ""
+
+#: content/setup.php:39
+msgid ""
+"Enter your <a href=\"https://www.startbooking.com\">Start Booking</a> email "
+"and password and we will automatically connect your WordPress site with the "
+"Start Booking App."
+msgstr ""
+
+#: content/setup.php:55
+msgid "Password"
+msgstr ""
+
+#: content/setup.php:66
+msgid "Account"
+msgstr ""
+
+#: content/setup.php:76
+msgid "Back"
+msgstr ""
+
+#: content/setup.php:77
+msgid "Connect"
+msgstr ""
+
+#: content/setup.php:88
+msgid "Don't have a StartBooking.com account?"
+msgstr ""
+
+#: inc/copy.php:6
+msgid "Select a Date and Time"
+msgstr ""
+
+#: inc/copy.php:7
+msgid "Available Times for"
+msgstr ""
+
+#: inc/copy.php:8
+msgid "No appointments available on selected day."
+msgstr ""
+
+#: inc/copy.php:9
+msgid "Looking for available appointments."
+msgstr ""
+
+#: inc/copy.php:11
+msgid "Selected date is in the past."
+msgstr ""
+
+#: inc/copy.php:12
+msgid "Please select a date and time."
+msgstr ""
+
+#: inc/copy.php:16
+msgid "Your Details"
+msgstr ""
+
+#: inc/copy.php:17
+msgid "Secure Profile Loaded from StartBooking.com"
+msgstr ""
+
+#: inc/copy.php:25
+msgid "Review & Confirm"
+msgstr ""
+
+#: inc/copy.php:26
+msgid "Name"
+msgstr ""
+
+#: inc/copy.php:27
+msgid "Date"
+msgstr ""
+
+#: inc/copy.php:28
+msgid "Time"
+msgstr ""
+
+#: inc/copy.php:30
+msgid "Service(s)"
+msgstr ""
+
+#: inc/copy.php:31
+msgid "Confirm Appointment"
+msgstr ""
+
+#: inc/copy.php:34
+msgid "Select Services"
+msgstr ""
+
+#: inc/copy.php:35
+msgid "Select Another Service"
+msgstr ""
+
+#: inc/copy.php:36
+msgid "Select a Service Type"
+msgstr ""
+
+#: inc/copy.php:37
+msgid "Loading service types..."
+msgstr ""
+
+#: inc/copy.php:39
+msgid "Please select a service to continue."
+msgstr ""
+
+#: inc/copy.php:43
+msgid "Thank You!"
+msgstr ""
+
+#: inc/copy.php:44
+msgid "We have confirmed your appointment on "
+msgstr ""
+
+#: inc/copy.php:45
+msgid "Customer"
+msgstr ""
+
+#: inc/copy.php:47
+msgid "Address"
+msgstr ""
+
+#: inc/copy.php:48
+msgid "We look forward to seeing you!"
+msgstr ""
+
+#: inc/copy.php:49
+msgid "Done"
+msgstr ""
+
+#: inc/copy.php:52
+msgid "Booking Currently Unavailable"
+msgstr ""
+
+#: inc/copy.php:53
+msgid ""
+"Booking appointments are currently unavailable. Please check again later."
+msgstr ""
+
+#: inc/copy.php:57
+msgid "Continue"
+msgstr ""
+
+#: inc/widgets.php:7 inc/widgets.php:9
+msgid "Start Booking Location Hours"
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Closed"
+msgstr ""
+
+#: inc/widgets.php:39 inc/widgets.php:100
+msgid "Title"
+msgstr ""
+
+#: inc/widgets.php:42
+msgid ""
+"Location hours are loaded from your account profile at StartBooking.com."
+msgstr ""
+
+#: inc/widgets.php:42 inc/widgets.php:132
+msgid "account"
+msgstr ""
+
+#: inc/widgets.php:42
+msgid "Manage Hours"
+msgstr ""
+
+#: inc/widgets.php:51 inc/widgets.php:53
+msgid "Start Booking Location Address"
+msgstr ""
+
+#: inc/widgets.php:105
+msgid "Map Type"
+msgstr ""
+
+#: inc/widgets.php:107
+msgid "Road Map"
+msgstr ""
+
+#: inc/widgets.php:108
+msgid "Satellite"
+msgstr ""
+
+#: inc/widgets.php:113
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/widgets.php:115
+msgid "No Zoom"
+msgstr ""
+
+#: inc/widgets.php:116
+msgid "Level 1"
+msgstr ""
+
+#: inc/widgets.php:117
+msgid "Level 2"
+msgstr ""
+
+#: inc/widgets.php:118
+msgid "Level 3"
+msgstr ""
+
+#: inc/widgets.php:119
+msgid "Level 4"
+msgstr ""
+
+#: inc/widgets.php:124
+msgid "Marker Color"
+msgstr ""
+
+#: inc/widgets.php:126
+msgid "Red"
+msgstr ""
+
+#: inc/widgets.php:127
+msgid "Blue"
+msgstr ""
+
+#: inc/widgets.php:128
+msgid "Green"
+msgstr ""
+
+#: inc/widgets.php:132
+msgid ""
+"Location address is loaded from your account profile at StartBooking.com."
+msgstr ""
+
+#: inc/widgets.php:132
+msgid "Update Address"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Start Booking"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.startbooking.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Integrate online booking service StartBooking.com. Including an appointment "
+"form for customers to book directly on your website and a widget to display "
+"open hours."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.startbooking.com"
+msgstr ""
